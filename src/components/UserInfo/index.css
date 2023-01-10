@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+.userInfoContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.avatarName {
+  text-align: center;
+  color: #12022f;
+}
+.avatarRole {
+  color: #616e7c;
+  font-weight: 500;
+}
+
+/* Small Resolution */
+@media (max-width: 767px) {
+  .avatarName {
+    font-size: 15px;
+  }
+  .avatarRole {
+    font-size: 10px;
+  }
+}
+
+.avatarImage {
+  width: 100px;
+  height: 100px;
+}
